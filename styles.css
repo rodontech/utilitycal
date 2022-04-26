@@ -1,0 +1,92 @@
+body{
+background-color: grey;
+
+}
+
+.calculator{
+  width: 320px;
+  height: 558px;
+  background-color: #2a2b2c;
+  margin: auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+  height: 120px;
+  border-radius: 8px;
+  border-style: inset;
+  margin: 5px;
+
+}
+#history{
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+#output{
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+  color: white;
+}
+.oprand{
+  width: 500px;
+  height: 20px;
+  margin: 10px;
+
+}
+
+#keyboard{
+  height: 400px;
+}
+.operators, .numbers, .empty{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.numbers, .empty{
+  background-color: white;
+}
+.operators, .numbers{
+  cursor: pointer;
+}
+.operators:active, .numbers:active{
+  font-size: 13px;
+}
+.operators:focus, .numbers:focus, .empty:focus{
+}
+button:nth-child(4){
+  font-size: 20px;
+  background-color: white;
+}
+button:nth-child(8){
+  font-size: 20px;
+  background-color: red;
+}
+button:nth-child(12){
+  font-size: 20px;
+  background-color: yellow;
+}
+button:nth-child(16){
+  font-size: 20px;
+  background-color: blue;
+}
+button:nth-child(20){
+  font-size: 20px;
+  background-color: orange;
+}
+button:nth-child(24){
+  font-size: 20px;
+  background-color: green;
+}
